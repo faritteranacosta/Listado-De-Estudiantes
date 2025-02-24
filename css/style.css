@@ -19,7 +19,7 @@ nav {
     display: flex;
     margin-right: 10px;
     margin-left: 10px; 
-    gap: 120px;
+    gap: 15px;
     align-items: center;
     width: 100%;
 }
@@ -54,6 +54,7 @@ nav {
     color: white;
     gap: 35px;
     padding: 20px;
+    width: 100%;
 }
 .acciones {
     text-decoration: none;
