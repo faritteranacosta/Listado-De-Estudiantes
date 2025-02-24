@@ -25,13 +25,13 @@ nav {
 }
 
 .nav-item a {
-    color: inherit;
-    text-decoration: none; 
-    margin: 0 10px; 
+    color: inherit; /* Mantiene el color del texto */
+    text-decoration: none; /* Elimina el subrayado */
+    margin: 0 10px; /* Ajusta el margen según sea necesario */
 }
 
 .nav-item a i {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Ajusta el tamaño del icono según sea necesario */
     color: #334155;
 }
 
@@ -180,6 +180,7 @@ footer {
     border-radius: 40%;
 }
 
+/* Estilos responsivos */
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -191,4 +192,5 @@ footer {
         flex-wrap: wrap;
     }
 }
+
 
